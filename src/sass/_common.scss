@@ -1,1 +1,33 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input:focus {
+  outline: transparent;
+}
+
+.container {
+  // width: 1158px;
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768.98px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 1199.98px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+a {
+  cursor: inherit;
+}
